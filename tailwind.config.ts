@@ -57,7 +57,7 @@ export default {
 					'red-dark': 'hsl(var(--anime-red-dark))',
 					'red-light': 'hsl(var(--anime-red-light))',
 					black: 'hsl(var(--anime-black))',
-					white: 'hsl(var(--anime-white))',
+					white: '#FFFFFF',
 					gray: 'hsl(var(--anime-gray))'
 				},
 				sidebar: {

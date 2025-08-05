@@ -42,8 +42,8 @@ All colors MUST be HSL.
     --anime-red-dark: 0 84% 45%;
     --anime-red-light: 0 84% 65%;
     --anime-black: 0 0% 0%;
-    --anime-white: rgb(255, 255, 255);
-    --anime-gray: rgb(255, 255, 255);
+    --anime-white: 0 0% 100%;
+    --anime-gray: 0 0% 95%;
 
     /* Gradients */
     --gradient-red: linear-gradient(135deg, hsl(var(--anime-red)), hsl(var(--anime-red-dark)));
