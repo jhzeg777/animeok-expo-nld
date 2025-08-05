@@ -108,10 +108,10 @@ const Activities = () => {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <button className="bg-anime-red text-anime-white px-6 py-3 rounded-lg font-semibold hover:bg-anime-red-dark transition-colors duration-300">
-                Solicitar Stand
+                Más Información
               </button>
               <button className="border-2 border-anime-red text-anime-red px-6 py-3 rounded-lg font-semibold hover:bg-anime-red hover:text-anime-white transition-colors duration-300">
-                Ver Precios
+                Contacto
               </button>
             </div>
           </div>

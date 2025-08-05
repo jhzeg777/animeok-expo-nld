@@ -1,4 +1,5 @@
 import { Facebook, Instagram, Twitter, Youtube, Mail, Phone, MapPin } from "lucide-react";
+import animeokLogo from "@/assets/animeok-logo.jpg";
 
 const Footer = () => {
   const socialLinks = [
@@ -22,9 +23,13 @@ const Footer = () => {
         <div className="grid md:grid-cols-4 gap-8 mb-12">
           {/* Logo and Description */}
           <div className="md:col-span-1">
-            <h3 className="text-2xl font-bold bg-gradient-to-r from-anime-red to-anime-red-light bg-clip-text text-transparent mb-4">
-              AnimeOK Expo
-            </h3>
+            <div className="mb-4">
+              <img 
+                src={animeokLogo} 
+                alt="AnimeOK Expo" 
+                className="h-16 w-auto filter brightness-0 invert"
+              />
+            </div>
             <p className="text-anime-white/70 text-sm leading-relaxed">
               La convención de anime más grande de Nuevo Laredo, Tamaulipas. 
               Tres días de diversión, cultura japonesa y comunidad otaku.

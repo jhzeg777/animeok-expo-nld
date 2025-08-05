@@ -57,14 +57,14 @@ const Tickets = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-anime-black mb-4">
-            Boletos y
-            <span className="block text-anime-red">Precios</span>
+            Precios de
+            <span className="block text-anime-red">Entrada</span>
           </h2>
           <p className="text-xl text-anime-black/70 max-w-3xl mx-auto">
-            Elige el pase perfecto para disfrutar al máximo de AnimeOK Expo 2024
+            Información de precios para el acceso a AnimeOK Expo 2024
           </p>
           <div className="mt-6 inline-block bg-anime-red text-anime-white px-6 py-2 rounded-full text-sm font-semibold">
-            ¡Oferta por tiempo limitado!
+            Precios sujetos a cambio
           </div>
         </div>
 
@@ -123,8 +123,9 @@ const Tickets = () => {
                   className={`w-full py-3 text-lg font-semibold ${
                     !ticket.popular ? 'border-anime-red text-anime-red hover:bg-anime-red hover:text-anime-white' : ''
                   }`}
+                  disabled
                 >
-                  Comprar Ahora
+                  Próximamente
                 </Button>
               </CardContent>
             </Card>
@@ -136,12 +137,12 @@ const Tickets = () => {
           <div className="grid md:grid-cols-2 gap-8 items-center">
             <div>
               <h3 className="text-2xl font-bold text-anime-black mb-4">
-                Información Importante
+                Información de Acceso
               </h3>
               <ul className="space-y-2 text-anime-black/70">
                 <li className="flex items-center gap-2">
                   <Check className="w-5 h-5 text-anime-red" />
-                  Los boletos son válidos únicamente para las fechas del evento
+                  Los precios son válidos únicamente para las fechas del evento
                 </li>
                 <li className="flex items-center gap-2">
                   <Check className="w-5 h-5 text-anime-red" />
@@ -149,7 +150,7 @@ const Tickets = () => {
                 </li>
                 <li className="flex items-center gap-2">
                   <Check className="w-5 h-5 text-anime-red" />
-                  Los boletos son transferibles pero no reembolsables
+                  Las entradas estarán disponibles próximamente
                 </li>
                 <li className="flex items-center gap-2">
                   <Check className="w-5 h-5 text-anime-red" />
@@ -159,14 +160,14 @@ const Tickets = () => {
             </div>
             <div className="text-center">
               <h4 className="text-xl font-bold text-anime-black mb-4">
-                ¿Tienes dudas sobre los boletos?
+                ¿Tienes dudas sobre el evento?
               </h4>
               <p className="text-anime-black/70 mb-6">
                 Nuestro equipo está listo para ayudarte con cualquier pregunta
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <Button variant="outline" className="border-anime-red text-anime-red hover:bg-anime-red hover:text-anime-white">
-                  Chat en Vivo
+                  Contacto
                 </Button>
                 <Button variant="outline" className="border-anime-red text-anime-red hover:bg-anime-red hover:text-anime-white">
                   WhatsApp

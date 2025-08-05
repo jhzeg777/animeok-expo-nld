@@ -47,7 +47,7 @@ const Hero = () => {
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
             <Button variant="hero" size="lg" className="text-lg px-8 py-4">
-              Comprar Boletos
+              Ver Información
             </Button>
             <Button variant="outline" size="lg" className="text-lg px-8 py-4 bg-anime-white/10 border-anime-white text-anime-white hover:bg-anime-white hover:text-anime-black">
               Ver Programación

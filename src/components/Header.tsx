@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Menu, X } from "lucide-react";
 import { useState } from "react";
+import animeokLogo from "@/assets/animeok-logo.jpg";
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -18,9 +19,11 @@ const Header = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           <div className="flex items-center">
-            <h1 className="text-2xl font-bold bg-gradient-to-r from-anime-red to-anime-red-dark bg-clip-text text-transparent">
-              AnimeOK Expo
-            </h1>
+            <img 
+              src={animeokLogo} 
+              alt="AnimeOK Expo" 
+              className="h-12 w-auto"
+            />
           </div>
 
           {/* Desktop Navigation */}
@@ -38,10 +41,7 @@ const Header = () => {
 
           <div className="hidden md:flex items-center space-x-4">
             <Button variant="outline" size="sm">
-              Registro
-            </Button>
-            <Button variant="anime" size="sm">
-              Comprar Boletos
+              Información
             </Button>
           </div>
 
@@ -73,10 +73,7 @@ const Header = () => {
               ))}
               <div className="flex flex-col space-y-2 px-3 pt-4">
                 <Button variant="outline" size="sm">
-                  Registro
-                </Button>
-                <Button variant="anime" size="sm">
-                  Comprar Boletos
+                  Información
                 </Button>
               </div>
             </div>
